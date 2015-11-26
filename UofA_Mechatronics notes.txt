@@ -3,14 +3,13 @@
 
 groups : 
 
-	Analog of digital converter : 
-	Data Management: 
-	Data Processing: 
-	Data Reading: 
+	Analog to digital converter :  OK
+	Data Management:  OK
+	Data Processing:  OK
+	Data Recovery:
 	Data Storage: 
-	Hardware: 
-	Managers: 
-	
+	Hardware: OK
+	Managers: OK
 	
 =========================================================================================
 								Tasks for 1st weekend | Data to give them
@@ -51,4 +50,8 @@ Data management :
 				Meeting title : understanding everyone's needs, hardware/software based restrictions, establishing a data flow chart.
 			 
 	
+Data Recovery:
+    So: we'll have data stored on the EEPROM memory as binary image of the 3 accelerometer's voltages we read during the flight. Your goal is, after the flight, to read this data from a computer and store it in a file that the Data Processing team will be able to load into Matlab.
+    Your first task will be to learn about the EEPROM modules and Serial communication (as you will communicate both with the computer and the EEPROM modules via Serial).
+    
 	https://app.smartsheet.com/b/publish?EQBCT=1b6af1bde5b94ade85b39961ceb5b79a
