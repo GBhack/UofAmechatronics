@@ -76,10 +76,10 @@ Team Storage
 		debug
         
 Data Recovery:
-    So: we'll have data stored on the EEPROM memory as binary image of the 3 accelerometer's voltages we read during the flight. Your goal is, after the flight, to read this data from a computer and store it in a file that the Data Processing team will be able to load into Matlab.
+    So: we'll have data stored on the EEPROM memory as binary code of the 3 accelerometer's voltages we read during the flight. Your goal is, after the flight, to read this data from a computer and store it in a file that the Data Processing team will be able to load into Matlab.
     Your first task will be to learn about the EEPROM modules and Serial communication (as you will communicate both with the computer and the EEPROM modules via Serial).
-    As soon as you'll be provided with the reference of the EEPROM module you'll be using, you will have to go through its datasheet and understance how to communicate with it.
-    By the end of Monday's work session, you should have a pseudo-code and/or a basic sketch of your programmS (one assembly programm running on the PIC, which will read the data and send it ton the PC over serial, and one programm running on the PC reading data over Serial and writing it in a file).
-    Be sure to work closely with the Data Management Teaam which is here to coordinate the Dataflow between the Teams manipluating data.
+    As soon as you'll be provided with the reference of the EEPROM module you'll be using, you will have to go through its data-sheet and understand how to communicate with it.
+    By the end of Monday's work session, you should have a pseudo-code and/or a basic sketch of your programmS (one assembly program running on the PIC, which will read the data and send it to the PC over serial, and one programm running on the PC reading data over Serial and writing it in a file).
+    Be sure to work closely with the Data Management Team which is here to coordinate the Data-flow between the Teams manipulating data.
     
 	https://app.smartsheet.com/b/publish?EQBCT=1b6af1bde5b94ade85b39961ceb5b79a
