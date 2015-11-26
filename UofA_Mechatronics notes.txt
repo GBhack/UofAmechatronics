@@ -26,6 +26,13 @@ Analog to digital converter:
 		strongly recomend to take down notes of the important and usefull information to have it quickly available when working on the A/DC. 
 	
 Hardware :
+    Your first task is absolutly essential as it will set the basis for other groups: you need to come up with a list of componants for the project.
+    The first thing you'll need to do is refer to the specifications of the project which states that we MUST use a PIC16F690, an accelerometer with analog output and serial EEPROM.
+    Then you'll have to have a look on what exists outhere in term of componants. I suggest having a look on digikey.com, mouser.com or even Adafruit.com or sparfun.com.
+    You'll find out that those componants have a range of specifications and you'll have to set a value for those. For instance: do you need a +/-2g accelerometer or a +/-16g ?
+    Keep in mind that the core of the project is the PIC and that it has electical specifications... 
+    We need you to come tu us by friday at midnight with a list of componants, being totaly sure about them fulfilling all the requirements and able to provide them on time (ie less than 8 days).
+    
 	- Guidlines to list of components: 
 				- what? 
 				- Quick requierment list for each component.
