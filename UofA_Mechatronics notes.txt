@@ -54,5 +54,25 @@ Data management :
 			prepare the first "data management" meeting that'll take place on monday with the data storage and recovery teams.
 				Meeting title : understanding everyone's needs, hardware/software based restrictions, establishing a data flow chart.
 			 
-	
+Team Data Post-Processing : 
+	- role in the project
+		Figure out a way to translate the recovered data into matlab plots which can be interpreted.
+		
+	- first tasks:
+		Find out how to convert dinary data into easaly comparable data, create a standerdised mathlab input format and comunicate it to the data recovery 
+		team so they know what output they must have. please share your solution with us. 
+		
+	- Second task:
+		Once your input data is definded write the matlab programe which read the data, 
+		cunducts math to get velocity and possition from acceleration, 
+		plot resaults in an easaly readable format
+		
+		
+		
+		
+		
+		
+		
+		
+		Once acceleration data has been saved on the EEPROM this team will figure out a way to read it to a PC through the PIC 
 	https://app.smartsheet.com/b/publish?EQBCT=1b6af1bde5b94ade85b39961ceb5b79a
