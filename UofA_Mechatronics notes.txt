@@ -1,16 +1,15 @@
-								UofA Mechatronics project
+								UofA Mecatronics prject
 ==========================================================================================
 
 groups : 
 
-	Analog of digital converter : 
-	Data Management: 
-	Data Processing: 
-	Data Reading: 
+	Analog to digital converter :  OK
+	Data Management:  OK
+	Data Processing:  OK
+	Data Recovery:
 	Data Storage: 
-	Hardware: 
-	Managers: 
-	
+	Hardware: OK
+	Managers: OK
 	
 =========================================================================================
 								Tasks for 1st weekend | Data to give them
@@ -32,14 +31,10 @@ Hardware :
     You'll find out that those components have a range of specifications and you'll have to set a value for those. For instance: do you need a +/-2g accelerometer or a +/-16g ?
     Keep in mind that the core of the project is the PIC and that it has electrical specifications... 
     We need you to come tu us by Friday at midnight with a list of components, being totally sure about them fulfilling all the requirements and able to provide them on time (ie less than 8 days).
+    In a second time, you'll want to come prepared for monday work session. You can do that by reading the PIC, EEPROM and Accelerometer's datasheets (at least their "wiring" sections) and trying to find "tutorials" (text or video) on Cadsoft Eagle.
+    The goal is that by Wednersday, you'll have came up with a schematic for the circuit.
     
-	- Guidelines to list of components: 
-				- what? 
-				- Quick requirement list for each component.
-				- Important stuff to look for (ex: max operation voltage)
-	-> Goal: learn what to look for with each component, what data to compare, what does that change in
-			 how if works. 
-			 
+	 
 Data management : 
 	- Detailed description of role in the project: 
 		Make sure the data flows correctly from the sensor to the EEPROM
@@ -79,12 +74,9 @@ Team Storage
 	
 	- task 3: 
 		debug
-		
-		
-		
-		
-		
-		
-		
-		Once acceleration data has been saved on the EEPROM this team will figure out a way to read it to a PC through the PIC 
+        
+Data Recovery:
+    So: we'll have data stored on the EEPROM memory as binary image of the 3 accelerometer's voltages we read during the flight. Your goal is, after the flight, to read this data from a computer and store it in a file that the Data Processing team will be able to load into Matlab.
+    Your first task will be to learn about the EEPROM modules and Serial communication (as you will communicate both with the computer and the EEPROM modules via Serial).
+    
 	https://app.smartsheet.com/b/publish?EQBCT=1b6af1bde5b94ade85b39961ceb5b79a
