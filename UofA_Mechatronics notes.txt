@@ -34,7 +34,18 @@ Hardware :
 			 how if works. 
 			 
 Data management : 
-		
+	- Detailed description of role in the project: 
+		Make sure the data flows corectly from the sensor to the EEPROM
+		De sure that all diffrent conversion steps are well understoud by involved parties to prevent i/o incompatibilities.
+		be the boss of the discision process that leads to chosing the data format at each step (A/D, prossesing, storage).
+		take care of setting the format the data will be in in the serail comunications, basicly in charge of the data when it's in copper wires.
+	
+	- First tasks:
+		Read through the PIC16F690 DATASHEET to learn about serial comunications (chapter 12), "Important to do fast !!! the data Storage team need it to
+		start work on their i/o requierments!"
+			look for the serail data format, how is it used (nessesary to give instructions to the data storage and recovery teams for their programming)
+			prepare the first "data management" meeting that'll take place on monday with the data storage and recovery teams.
+				Meeting title : understanding everyone's needs, hardware/software based restrictions, establishing a data flow chart.
 			 
 	
 	https://app.smartsheet.com/b/publish?EQBCT=1b6af1bde5b94ade85b39961ceb5b79a
