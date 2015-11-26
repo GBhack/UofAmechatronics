@@ -1,0 +1,40 @@
+								UofA Mecatronics prject
+==========================================================================================
+
+groups : 
+
+	Analog of digital converter : 
+	Data Management: 
+	Data Processing: 
+	Data Reading: 
+	Data Storage: 
+	Hardware: 
+	Managers: 
+	
+	
+=========================================================================================
+								Tasks for 1st weekend | Data to give them
+
+Analog to digital converter:
+	
+	Pages to read on the A/D PIC16F690 : Analog to digital converter chapter in data sheet: p109-120
+		goal is to understand how the built in A/D works, who to programe it etc...
+		look for : how the A/D opperates, (conversion cycles, output format, conversion time, specail events, interupts, conversion termination...)
+		understanding the role of the dedecated registers, note down the ones most probably need for quicker acces to the info later.
+		look through and understand the example page 114.
+		look at the Aquisition requierments, is there a specific way to wire the analog input the hardware team should know about?
+		strongly recomend to take down notes of the important and usefull information to have it quickly available when working on the A/DC. 
+	
+Hardware :
+	- Guidlines to list of components: 
+				- what? 
+				- Quick requierment list for each component.
+				- Important stuff to look for (ex: max operation voltage)
+	-> Goal: learn what to look for with each component, what data to compare, what does that change in
+			 how if works. 
+			 
+Data management : 
+		
+			 
+	
+	https://app.smartsheet.com/b/publish?EQBCT=1b6af1bde5b94ade85b39961ceb5b79a
