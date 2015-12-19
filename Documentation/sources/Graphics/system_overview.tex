@@ -1,0 +1,18 @@
+\begin{tikzpicture}[transform shape]
+ 
+  % Draw diagram elements
+  \path \diagElt {1}{Data acquisition}{X, Y and Z analog output values};
+  \path (p1.south)+(0.0,-1.5) \diagElt{2}{Data storage}{Writing those values to memory};
+  \path (p2.south)+(0.0,-2.3)  \diagElt{3}{Data reading}{Recover data from memory and send it to computer};
+  \path (p3.south)+(0.0,-2.0) \diagElt{4}{Data processing}{Process the data to be usable};
+
+ 
+  % Draw arrows between elements
+  \path [line] (p1.south) -- node [above] {} (p2);
+  \path [line] (p2.south) -- node [above] {} (p3);
+  \path [line] (p3.south) -- node [above] {} (p4);
+   
+  \background{p1}{p1}{p2}{p2}{Embedded module}
+  \background{p3}{p3}{p3}{p3}{Recovery module}
+  \background{p4}{p4}{p4}{p4}{Computer}
+ \end{tikzpicture}

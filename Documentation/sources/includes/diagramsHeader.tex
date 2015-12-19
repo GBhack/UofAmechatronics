@@ -1,0 +1,39 @@
+% Define the layers to draw the diagram
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+ 
+% Define block styles  
+\tikzstyle{texture}=[draw, fill=blue!20, text width=6.0em, text centered,
+  minimum height=1.5em,drop shadow]
+\tikzstyle{diagElt} = [texture, text width=8em, minimum width=10em,
+  minimum height=3em, rounded corners, drop shadow]
+\tikzstyle{texto} = [above, text width=6em, text centered]
+\tikzstyle{linepart} = [draw, thick, color=black!50, -latex', dashed]
+\tikzstyle{line} = [draw, thick, color=black!50, -latex']
+\tikzstyle{ur}=[draw, text centered, minimum height=0.01em]
+ 
+% Define distances for bordering
+\newcommand{\blockdist}{1.3}
+\newcommand{\edgedist}{1.5}
+
+\newcommand{\diagElt}[3]{node (p#1) [diagElt]
+  {#2\\{\scriptsize\textit{#3}}}}
+
+% Draw background
+\newcommand{\background}[5]{%
+  \begin{pgfonlayer}{background}
+    % Left-top corner of the background rectangle
+    \path (#1.west |- #2.north)+(-1,0.6) node (a1) {};
+    % Right-bottom corner of the background rectanle
+    \path (#3.east |- #4.south)+(+0.6,-0.3) node (a2) {};
+    % Draw the background
+    \path[fill=yellow!20,rounded corners, draw=black!50, dashed]
+      (a1) rectangle (a2);
+    \path (a1.east |- a1.south)+(1,-0.35) node (u1)[texto]
+      {\scriptsize\textit{#5}};
+  \end{pgfonlayer}}
+
+\newcommand{\interOutput}[3]{%
+  \path [linepart] (#1.east) -- node [above]
+    {\scriptsize interOutput #2} (#3);}
