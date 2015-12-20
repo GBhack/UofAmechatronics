@@ -5,4 +5,4 @@ embeedded acceleration recorder for model rockets based on an analog acceleromet
 You can use the code and schematics but we strongly suggest that you read the documentation first, and pay
 extra attention to the "if we had to do it agin" part.
 
-Hope this help!
+Hope this helps!
